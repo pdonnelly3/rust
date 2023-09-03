@@ -11,7 +11,11 @@ pub fn spawn_player(ecs: &mut World, pos: Point) {
     ));
 }
 
-pub fn spawn_monster(ecs: &mut World, rng: &mut RandomNumberGenerator, pos: Point) {
+pub fn spawn_monster(
+    ecs: &mut World,
+    rng: &mut RandomNumberGenerator,
+    pos: Point,
+) {
     ecs.push((
         Enemy,
         pos,
@@ -24,5 +28,6 @@ pub fn spawn_monster(ecs: &mut World, rng: &mut RandomNumberGenerator, pos: Poin
                 _ => to_cp437('g'),
             },
         },
+        MovingRandomly {},
     ));
 }
