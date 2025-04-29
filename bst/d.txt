@@ -1,0 +1,12 @@
+Some(0x7f7918f061c0)
+Some(0x7f7918f061c0)
+Some(0x7f7918f061c0)
+Node { data: 10, left: None, right: None }
+Node { data: 10, left: None, right: None }
+Some(0x7f7918f061c0)
+None
+Node { data: 10, left: None, right: None }
+Some(0x7f7918f061c0)
+None
+Node { data: 10, left: None, right: None }
+Node { data: 10, left: None, right: None }
